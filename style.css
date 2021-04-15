@@ -1,0 +1,26 @@
+.paleta1{
+    margin: auto;
+    width: 50vh;
+    height: 95vh;
+    border: 5px solid black;
+    background-image: linear-gradient(to right bottom, #2e3d3d, #2c5a57, #38827b, #27a094, #28c0ac);
+    border-radius: 40px;
+}
+.paleta1 .edificio img{
+    padding-top: 30%;
+    display: flex;
+    width: 100%;
+}
+.paleta1 .camion{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.paleta1 .camion img{
+    align-content: flex-start;
+    position: absolute;
+    width: 70%;
+    padding-bottom: 50px;
+}
