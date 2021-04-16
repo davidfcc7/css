@@ -4,7 +4,8 @@
     height: 95vh;
     border: 5px solid black;
     background-image: linear-gradient(to right bottom, #2e3d3d, #2c5a57, #38827b, #27a094, #28c0ac);
-    border-radius: 40px;
+    border-radius: 19px;
+    box-shadow:  5px 5px 8px #0f5e73, -5px -5px 8px #354042;
 }
 .paleta1 .edificio img{
     padding-top: 30%;
@@ -13,12 +14,12 @@
 }
 .paleta1 .camion{
     display: flex;
-    align-items: flex-start;
     position: relative;
     justify-content: center;
     align-items: center;
 }
 .paleta1 .camion img{
+    display: flex;
     align-content: flex-start;
     position: absolute;
     width: 70%;
