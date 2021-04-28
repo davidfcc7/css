@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    /*variables globales para reusar en el codigo*/
+    --color-text-red: red;
+}
+main h1{
+    color: var(--color-text-red);
+}
+main p{
+    color: var(--color-text-red);
+}
