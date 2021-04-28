@@ -1,0 +1,23 @@
+.card{
+margin: auto;
+width: 600px;
+box-shadow: 0.3em 0.3px 1em rgb(121, 100, 100);
+border: 1px solid black;
+margin-top: 10%;
+border-radius: 10px;
+}
+.card__title{
+    text-align: center;
+    color: blue;
+    margin: auto;
+}
+.card__paragraph{
+    text-align: justify;
+    color: brown;
+    padding: 0 20px;
+} 
+.card__paragraph--secondary{
+    color: chocolate;
+    padding: 0 40px;
+    text-align: justify;
+}
