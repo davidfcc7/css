@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(161, 183, 224);
+    margin: auto;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header a{
+    margin: auto 0;
+    padding: 25px;
+    border: 1px solid white;
+    margin-right: 20px;
+    background-color: rgb(0, 30, 128);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+header h1{
+    margin: auto 0;
+    padding-left: 3%;
+    font-weight: 900;
+    color: white;
+}
+.intro {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+}
+.intro_img{
+    width: 40%;
+    height: 300px;
+}
