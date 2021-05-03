@@ -1,3 +1,4 @@
+-var titulo = ["titulo principal", "otro titulo"]
 doctype html
 html(lang="en")
     head
@@ -13,7 +14,8 @@ html(lang="en")
         section.intro 
             .intro_img: img(src="https://images.pexels.com/photos/4322027/pexels-photo-4322027.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", alt="")
             .intro__text 
-                h1 Titulo 
+            <!--desde la variable declarada-->
+                h1 #{titulo[0]}
                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cumque. Libero, quisquam.
         section.blog 
             .blog_first 
@@ -21,4 +23,7 @@ html(lang="en")
                 h1 
                 p 
             .blog_second
+            ul
+                each tile in titulo 
+                    li=titulo  
             .blog_third 
