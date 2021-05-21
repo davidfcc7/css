@@ -19,6 +19,12 @@ header{
     width: 1000px;
     height: auto;
 }
+.menuTop ul li ul{
+    display: none;
+}
+.menuTop ul li:hover ul{
+    display: block;
+}
 .menuTop__menuUno{
     float: left;
     width: 20%;
@@ -27,4 +33,19 @@ header{
     line-height: 50px;
     border: 4px solid white;
     background-image: linear-gradient(to right bottom, #406eb3, #0078a6, #00797e, #03754c, #556b24);
+}
+.menuTop__menuUno:hover{
+    background: blueviolet;
+}
+.menuTop__menuUno--subMenuUno{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    line-height: 42px;
+    border-top: 4px solid white;
+    background: gray;
+}
+.menuTop__menuUno--subMenuUno:hover{
+    background: blue;
+    transition: 2s ease-out;
 }
