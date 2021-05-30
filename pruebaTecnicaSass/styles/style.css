@@ -8,10 +8,32 @@
   list-style: none;
 }
 
+body {
+  width: 491px;
+  margin: auto;
+}
+
+header {
+  background-color: #E6484B;
+}
+
+section#headerMenu {
+  background-color: #FFFFFF;
+}
+
+section#headerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 nav.botoneraMovil {
   position: absolute;
-  width: 90%;
-  height: auto;
+  width: 100%;
+  height: 100vh;
   background: white;
   top: 50px;
   left: -100%;
@@ -24,36 +46,93 @@ nav.botoneraMovil ul li {
   line-height: 40px;
   text-align: center;
   border: 1px solid white;
-  background: #cac9c9;
-}
-
-nav.botoneraMovil ul li:hover {
-  background: #bb7676;
+  color: #000000;
 }
 
 label#labelMovil span {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 18px;
+  height: 14px;
   background-image: url("../assets/Burguer - Menu.svg");
   background-size: cover;
+  margin: 20px 0px 19px 19px;
+}
+
+label#labelMovil span:hover {
+  cursor: pointer;
 }
 
 input#botonMovil {
   display: none;
 }
 
-label#labelMovil h2 {
-  top: 10px;
-  left: 60px;
-  position: absolute;
-}
-
 input#botonMovil:checked + label#labelMovil span {
   background-image: url("../assets/Arrow - back.svg");
+  width: 8px;
+  height: 17px;
 }
 
 input#botonMovil:checked ~ nav.botoneraMovil {
   left: 0px;
+}
+
+.headerLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 79px;
+  height: 34px;
+  margin: 9px 0px 10px 60px;
+}
+
+.headerIconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin: 16px 17px;
+}
+
+.headerTitulo {
+  margin: auto;
+  padding: 23px 14px;
+  text-align: center;
+}
+
+.headerTitulo h1 {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+section#headerLocalidad {
+  margin: 14px 30px 16px 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+
+section#headerLocalidad img {
+  width: 27px;
+  height: 24px;
+  margin: 31px 0px 29px 17px;
+}
+
+section#headerLocalidad div {
+  margin: 19px 55px 17px 16px;
+}
+
+section#headerLocalidad div h3 {
+  font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-26) Poppins;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: #6E6E6E;
+}
+
+section#headerLocalidad div h1 {
+  font: normal normal 600 18px/28px Poppins;
+  color: #000000;
+  margin-top: 3px;
 }
 /*# sourceMappingURL=style.css.map */
