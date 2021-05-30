@@ -3,5 +3,16 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 491px;
+  margin: auto;
+}
+
+header {
+  background-image: url("../assets/Enmascarar grupo 11.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 32px;
+  height: 32px;
 }
 /*# sourceMappingURL=style.css.map */
