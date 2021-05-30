@@ -14,14 +14,47 @@ $colorBoxShadowTitle: #DD1E22!default;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    width: 491px;
-    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
-header{
-    background-image: url("../assets/Enmascarar\ grupo\ 11.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+nav.botoneraMovil{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    background: white;
+    top: 50px;
+    left: -100%;
+    transition: left .5s;
+}
+nav.botoneraMovil ul li{
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid white;
+    background: rgb(202, 201, 201);
+}
+nav.botoneraMovil ul li:hover{
+    background: rgb(187, 118, 118);
+}
+label#labelMovil span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/Burguer\ -\ Menu.svg");
     background-size: cover;
-    width: 32px;
-    height: 32px;
+}
+input#botonMovil{
+    display: none;
+}
+label#labelMovil h2{
+    top: 10px;
+    left: 60px;
+    position: absolute;
+}
+input#botonMovil:checked + label#labelMovil span{
+    background-image: url("../assets/Arrow\ -\ back.svg");
+}
+input#botonMovil:checked ~ nav.botoneraMovil{
+    left: 0px;
 }
