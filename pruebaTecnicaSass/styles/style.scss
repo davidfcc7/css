@@ -235,15 +235,32 @@ input#botonMovil:checked ~ nav.botoneraMovil{
 .mainStar__logo{
     display: flex;
 }
+.mainStar__logo img{
+    margin: auto;
+}
+.mainStar__logo h1{
+    margin: auto;
+}
+.mainStar__qualification{
+    display: flex;
+}
 .mainStar__qualification label{
     font-size: 22px;
     font-weight: normal;
     padding-right: 10px;
+    margin: auto;
+}
+.starRating{
+    margin: auto;
+}
+.starRating a{
+    border: 1px solid $colorBorderHeader;
 }
 .mainStar__paragraph{
     text-align: center;
     font-size: 12px;
     letter-spacing: 0.36px;
+    margin-top: 2px;
 }
 .mainStar__paragraph p{
     color: $colorParagraphFooter;
@@ -252,6 +269,13 @@ input#botonMovil:checked ~ nav.botoneraMovil{
 .mainStar__paragraph span{
     color: $colorDesaultText;
     font-weight: 700;
+}
+footer{
+    overflow: auto;
+    white-space: nowrap;
+}
+footer img{
+    padding: 10px;
 }
 
 
