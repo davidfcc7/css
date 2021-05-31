@@ -54,6 +54,7 @@ nav.botoneraMovil ul li{
     color: $colorDesaultText;
     font-size: 22px;
     font-weight: medium;
+    margin-bottom: 50px;
 }
 nav.botoneraMovil ul{
     margin: 119px 0 0 75px;
@@ -69,7 +70,7 @@ nav.botoneraMovil ul{
 .menu__socialNetwork--icons{
     display: flex;
     justify-content: space-around;
-    margin: 28px 174px 50vh 0;
+    margin: 28px 174px 20vh 0;
 }
 label#labelMovil span{
     position: absolute;
@@ -114,7 +115,7 @@ input#botonMovil:checked ~ nav.botoneraMovil{
 }
 .headerTitulo h1{
     font-size: 18px;
-    color: $colorBackground;
+    color: white;
 }
 .headerLocalidad{
     margin: 14px 30px 16px 31px; 
@@ -132,6 +133,7 @@ input#botonMovil:checked ~ nav.botoneraMovil{
 }
 .headerLocalidad div h3{
     color: $colorTitleDate;
+    font-weight: 300;
 }
 .headerLocalidad div h1{
     font: normal normal 600 18px/28px Poppins;
@@ -201,6 +203,7 @@ input#botonMovil:checked ~ nav.botoneraMovil{
 }
 .headerCalendar__event div h3{
     color: $colorTitleDate;
+    font-weight: 300;
 }
 .headerCalendar__event div h1{
     font: normal normal 600 18px/28px Poppins;

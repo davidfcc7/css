@@ -52,6 +52,7 @@ nav.botoneraMovil ul li {
   color: #000000;
   font-size: 22px;
   font-weight: medium;
+  margin-bottom: 50px;
 }
 
 nav.botoneraMovil ul {
@@ -74,7 +75,7 @@ nav.botoneraMovil ul {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 28px 174px 50vh 0;
+  margin: 28px 174px 20vh 0;
 }
 
 label#labelMovil span {
@@ -134,7 +135,7 @@ input#botonMovil:checked ~ nav.botoneraMovil {
 
 .headerTitulo h1 {
   font-size: 18px;
-  color: #FFFFFF;
+  color: white;
 }
 
 .headerLocalidad {
@@ -158,6 +159,7 @@ input#botonMovil:checked ~ nav.botoneraMovil {
 
 .headerLocalidad div h3 {
   color: #6E6E6E;
+  font-weight: 300;
 }
 
 .headerLocalidad div h1 {
@@ -251,6 +253,7 @@ input#botonMovil:checked ~ nav.botoneraMovil {
 
 .headerCalendar__event div h3 {
   color: #6E6E6E;
+  font-weight: 300;
 }
 
 .headerCalendar__event div h1 {
