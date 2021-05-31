@@ -16,17 +16,19 @@ $font: 'Poppins', sans-serif!default;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
     font-family: $font;
 }
 body{
     width: 491px;
-    margin: auto;
+    height: 100vh;
 }
 header{
-    background-color: $colorCheck;
+    background-image: url("../assets/Enmascarar\ grupo\ 11.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-x: -582px;
 }
 section#headerMenu{
     background-color: $colorBackground;
@@ -37,8 +39,8 @@ section#headerMenu{
 }
 nav.botoneraMovil{
     position: absolute;
-    width: 100%;
-    height: 100vh;
+    width: 491px;
+    height: auto;
     background: white;
     top: 50px;
     left: -100%;
@@ -47,9 +49,27 @@ nav.botoneraMovil{
 nav.botoneraMovil ul li{
     width: 100%;
     line-height: 40px;
-    text-align: center;
+    text-align: left;
     border: 1px solid white;
     color: $colorDesaultText;
+    font-size: 22px;
+    font-weight: medium;
+}
+nav.botoneraMovil ul{
+    margin: 119px 0 0 75px;
+}
+.menu__socialNetwork{
+    margin: 134px 0 0 75px;
+}
+.menu__socialNetwork h3{
+    color: $colorBorderHeader;
+    font-size: 22px;
+    font-weight: 400;
+}
+.menu__socialNetwork--icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 28px 174px 50vh 0;
 }
 label#labelMovil span{
     position: absolute;
@@ -81,9 +101,11 @@ input#botonMovil:checked ~ nav.botoneraMovil{
 }
 .headerIconos{
     display: flex;
-    width: 20px;
-    height: 20px;
+    justify-content: space-around;
     margin: 16px 17px;
+}
+.headerIconos img{
+    padding: 0 10px 0 10px;
 }
 .headerTitulo{
     margin: auto;
@@ -132,7 +154,7 @@ input#botonMovil:checked ~ nav.botoneraMovil{
 }
 .switchButton{
     width: 36px;
-    height: 20px;
+    height: 21px;
     border: 2px solid $colorBackground;
     border-radius: 10px;
     margin-left: 36px;
@@ -141,10 +163,10 @@ input#botonMovil:checked ~ nav.botoneraMovil{
     background-color: $colorBackground;
     border-radius: 10px;
     width: 16px;
-    height: 16px;
-    border: 2px solid $colorCheck;
+    height: 18px;
+    border: 0px solid $colorCheck;
     display: inline-block;
-    position: relative;
+    position: inherit;
 }
 .switchButton__label:before{
     transition: .2s;
@@ -157,7 +179,7 @@ input#botonMovil:checked ~ nav.botoneraMovil{
     background-color: $colorBackgroundCheckBox;
 }
 .switchButton__checkBox:checked + .switchButton__label:before{
-    transform: translateX(20%);
+    transform: translateX(20px);
 }
 .headerCalendar{
     display: flex;
@@ -186,7 +208,7 @@ input#botonMovil:checked ~ nav.botoneraMovil{
     margin-top: 3px;
 }
 .headerBrowser{
-    position: relative;
+    position: inherit;
     width: 86px;
     height: 60px;
     top: 10px;
@@ -251,10 +273,29 @@ input#botonMovil:checked ~ nav.botoneraMovil{
     margin: auto;
 }
 .starRating{
+    display: inline-block;
     margin: auto;
 }
 .starRating a{
+    text-decoration: none;
+    width: 12px;
+    height: 11px;
+    background-image: url("../assets/Grupo\ 5391.svg");
+    background-position: center;
+    background-size: cover;
+    color: white;
     border: 1px solid $colorBorderHeader;
+    padding: 1px;
+}
+.starRating:hover a{
+    background-image: url("../assets/Grupo\ 5392.svg");
+    background-position: center;
+    background-size: cover;
+}
+.starRating > a:hover ~ a{
+    background-image: url("../assets/Grupo\ 5391.svg");
+    background-position: center;
+    background-size: cover;
 }
 .mainStar__paragraph{
     text-align: center;
