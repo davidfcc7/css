@@ -38,7 +38,7 @@ nav{
     color: black;
     letter-spacing: 7px;
 }
-main{
+.mainIndex{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
