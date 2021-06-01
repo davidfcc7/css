@@ -3,61 +3,61 @@
     display: flex;
     justify-content: space-around;
     margin: 19px 69px 2px 69px;
-}
-.mainStar__logo{
-    display: flex;
-}
-.mainStar__logo img{
-    margin: auto;
-}
-.mainStar__logo h1{
-    margin: auto;
-}
-.mainStar__qualification{
-    display: flex;
-}
-.mainStar__qualification label{
-    font-size: 22px;
-    font-weight: normal;
-    padding-right: 10px;
-    margin: auto;
+    .mainStar__logo{
+        display: flex;
+        img{
+            margin: auto;
+        }
+        h1{
+            margin: auto;
+        }
+    }
+    .mainStar__qualification{
+        display: flex;
+        label{
+            font-size: 22px;
+            font-weight: normal;
+            padding-right: 10px;
+            margin: auto;
+        }
+    }
+    .mainStar__paragraph{
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 0.36px;
+        margin-top: 2px;
+        p{
+            color: $colorParagraphFooter;
+            font-weight: 600;
+        }
+        span{
+            color: $colorDesaultText;
+            font-weight: 700;
+        }
+    }
 }
 .starRating{
     display: inline-block;
     margin: auto;
-}
-.starRating a{
-    text-decoration: none;
-    width: 12px;
-    height: 11px;
-    background-image: url("../assets/Grupo\ 5391.svg");
-    background-position: center;
-    background-size: cover;
-    color: white;
-    border: 1px solid $colorBorderHeader;
-    padding: 1px;
-}
-.starRating:hover a{
-    background-image: url("../assets/Grupo\ 5392.svg");
-    background-position: center;
-    background-size: cover;
-}
-.starRating > a:hover ~ a{
-    background-image: url("../assets/Grupo\ 5391.svg");
-    background-position: center;
-    background-size: cover;
-}
-.mainStar__paragraph{
-    text-align: center;
-    font-size: 12px;
-    letter-spacing: 0.36px;
-    margin-top: 2px;
-}
-.mainStar__paragraph p{
-    color: $colorParagraphFooter;
-    font-weight: 600;
-}
-.mainStar__paragraph span{
-    color: $colorDesaultText;
-    font-weight: 700;
+    a{
+        text-decoration: none;
+        width: 12px;
+        height: 11px;
+        background-image: url("../assets/Grupo\ 5391.svg");
+        background-position: center;
+        background-size: cover;
+        color: white;
+        border: 1px solid $colorBorderHeader;
+        padding: 1px;
+    }
+    .starRating:hover a{
+        background-image: url("../assets/Grupo\ 5392.svg");
+        background-position: center;
+        background-size: cover;
+    }
+    .starRating > a:hover ~ a{
+        background-image: url("../assets/Grupo\ 5391.svg");
+        background-position: center;
+        background-size: cover;
+    }
 }

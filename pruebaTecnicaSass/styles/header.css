@@ -5,11 +5,8 @@ header {
   background-position-x: -582px;
 }
 
-section#headerMenu {
+header section#headerMenu {
   background-color: #FFFFFF;
-}
-
-section#headerMenu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,7 +15,7 @@ section#headerMenu {
           justify-content: space-between;
 }
 
-nav.botoneraMovil {
+header section#headerMenu nav.botoneraMovil {
   position: absolute;
   width: 491px;
   height: auto;
@@ -29,7 +26,30 @@ nav.botoneraMovil {
   transition: left 0.5s;
 }
 
-nav.botoneraMovil ul li {
+header section#headerMenu nav.botoneraMovil .menu__socialNetwork {
+  margin: 134px 0 0 75px;
+}
+
+header section#headerMenu nav.botoneraMovil h3 {
+  color: #E6E6E6;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+header section#headerMenu nav.botoneraMovil .menu__socialNetwork--icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 28px 174px 20vh 0;
+}
+
+header section#headerMenu ul {
+  margin: 119px 0 0 75px;
+}
+
+header section#headerMenu ul ul li {
   width: 100%;
   line-height: 40px;
   text-align: left;
@@ -40,30 +60,7 @@ nav.botoneraMovil ul li {
   margin-bottom: 50px;
 }
 
-nav.botoneraMovil ul {
-  margin: 119px 0 0 75px;
-}
-
-.menu__socialNetwork {
-  margin: 134px 0 0 75px;
-}
-
-.menu__socialNetwork h3 {
-  color: #E6E6E6;
-  font-size: 22px;
-  font-weight: 400;
-}
-
-.menu__socialNetwork--icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin: 28px 174px 20vh 0;
-}
-
-label#labelMovil span {
+header section#headerMenu label#labelMovil span {
   position: absolute;
   width: 18px;
   height: 14px;
@@ -72,25 +69,25 @@ label#labelMovil span {
   margin: 20px 0px 19px 19px;
 }
 
-label#labelMovil span:hover {
+header section#headerMenu label#labelMovil span:hover {
   cursor: pointer;
 }
 
-input#botonMovil {
+header section#headerMenu input#botonMovil {
   display: none;
 }
 
-input#botonMovil:checked + label#labelMovil span {
+header section#headerMenu input#botonMovil:checked + label#labelMovil span {
   background-image: url("../assets/Arrow - back.svg");
   width: 8px;
   height: 17px;
 }
 
-input#botonMovil:checked ~ nav.botoneraMovil {
+header section#headerMenu input#botonMovil:checked ~ nav.botoneraMovil {
   left: 0px;
 }
 
-.headerLogo {
+header section#headerMenu .headerLogo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,7 +96,7 @@ input#botonMovil:checked ~ nav.botoneraMovil {
   margin: 9px 0px 10px 60px;
 }
 
-.headerIconos {
+header section#headerMenu .headerIconos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,22 +105,22 @@ input#botonMovil:checked ~ nav.botoneraMovil {
   margin: 16px 17px;
 }
 
-.headerIconos img {
+header section#headerMenu .headerIconos img {
   padding: 0 10px 0 10px;
 }
 
-.headerTitulo {
+header section#headerMenu .headerTitulo {
   margin: auto;
   padding: 23px 14px;
   text-align: center;
 }
 
-.headerTitulo h1 {
+header section#headerMenu .headerTitulo h1 {
   font-size: 18px;
   color: white;
 }
 
-.headerLocalidad {
+header section#headerMenu .headerLocalidad {
   margin: 14px 30px 16px 31px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,48 +129,41 @@ input#botonMovil:checked ~ nav.botoneraMovil {
   border-radius: 6px;
 }
 
-.headerLocalidad input {
+header section#headerMenu .headerLocalidad input {
   width: 27px;
   height: 24px;
   margin: 31px 0px 29px 17px;
 }
 
-.headerLocalidad div {
+header section#headerMenu .headerLocalidad div {
   margin: 19px 55px 17px 16px;
 }
 
-.headerLocalidad div h3 {
+header section#headerMenu .headerLocalidad div h3 {
   color: #6E6E6E;
   font-weight: 300;
 }
 
-.headerLocalidad div h1 {
+header section#headerMenu .headerLocalidad div h1 {
   font: normal normal 600 18px/28px Poppins;
   color: #000000;
   margin-top: 3px;
 }
 
-.headerSwitch {
+header section#headerMenu .headerSwitch {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.headerSwitch div p {
+header section#headerMenu .headerSwitch div p {
   padding-left: 16px;
   color: #FFFFFF;
   margin: auto;
 }
 
-.switchButton {
+header section#headerMenu .headerSwitch .switchButton {
   display: inline-block;
-}
-
-.switchButton__checkBox {
-  display: none;
-}
-
-.switchButton {
   width: 36px;
   height: 21px;
   border: 2px solid #FFFFFF;
@@ -181,7 +171,11 @@ input#botonMovil:checked ~ nav.botoneraMovil {
   margin-left: 36px;
 }
 
-.switchButton__label {
+header section#headerMenu .headerSwitch .switchButton .switchButton__checkBox {
+  display: none;
+}
+
+header section#headerMenu .headerSwitch .switchButton .switchButton__label {
   background-color: #FFFFFF;
   border-radius: 10px;
   width: 16px;
@@ -191,7 +185,7 @@ input#botonMovil:checked ~ nav.botoneraMovil {
   position: inherit;
 }
 
-.switchButton__label:before {
+header section#headerMenu .headerSwitch .switchButton .switchButton__label:before {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   display: block;
@@ -200,16 +194,16 @@ input#botonMovil:checked ~ nav.botoneraMovil {
   height: 16px;
 }
 
-.switchButton__checkBox:checked + .switchButton {
+header section#headerMenu .headerSwitch .switchButton .switchButton__checkBox:checked + .switchButton {
   background-color: #DBDBDB;
 }
 
-.switchButton__checkBox:checked + .switchButton__label:before {
+header section#headerMenu .headerSwitch .switchButton .switchButton__checkBox:checked + .switchButton__label:before {
   -webkit-transform: translateX(20px);
           transform: translateX(20px);
 }
 
-.headerCalendar {
+header section#headerMenu .headerCalendar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,34 +214,34 @@ input#botonMovil:checked ~ nav.botoneraMovil {
       justify-content: space-around;
 }
 
-.headerCalendar__event {
+header section#headerMenu .headerCalendar .headerCalendar__event {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.headerCalendar__event input {
+header section#headerMenu .headerCalendar .headerCalendar__event input {
   width: 27px;
   height: 24px;
   margin: 31px 0px 29px 17px;
 }
 
-.headerCalendar__event div {
+header section#headerMenu .headerCalendar .headerCalendar__event div {
   margin: 19px 55px 17px 16px;
 }
 
-.headerCalendar__event div h3 {
+header section#headerMenu .headerCalendar .headerCalendar__event div h3 {
   color: #6E6E6E;
   font-weight: 300;
 }
 
-.headerCalendar__event div h1 {
+header section#headerMenu .headerCalendar .headerCalendar__event div h1 {
   font: normal normal 600 18px/28px Poppins;
   color: #000000;
   margin-top: 3px;
 }
 
-.headerBrowser {
+header section#headerMenu .headerBrowser {
   position: inherit;
   width: 86px;
   height: 60px;

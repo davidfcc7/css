@@ -18,10 +18,11 @@ body{
 footer{
     overflow: auto;
     white-space: nowrap;
+    img{
+        padding: 10px;
+    }
 }
-footer img{
-    padding: 10px;
-}
+
 
 
 
