@@ -9,7 +9,7 @@
             margin: auto;
         }
         h1{
-            margin: auto;
+            @extend img;
         }
     }
     &__qualification{

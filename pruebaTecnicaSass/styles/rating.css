@@ -13,11 +13,7 @@
   display: flex;
 }
 
-.mainStar__logo img {
-  margin: auto;
-}
-
-.mainStar__logo h1 {
+.mainStar__logo img, .mainStar__logo h1 {
   margin: auto;
 }
 
