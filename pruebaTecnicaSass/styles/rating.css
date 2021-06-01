@@ -57,11 +57,11 @@
   width: 12px;
   height: 11px;
   background-image: url("../assets/Grupo 5391.svg");
-  background-position: center;
-  background-size: cover;
   color: white;
   border: 1px solid #E6E6E6;
   padding: 1px;
+  background-position: center;
+  background-size: cover;
 }
 
 .starRating .starRating:hover a {

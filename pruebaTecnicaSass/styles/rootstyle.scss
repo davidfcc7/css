@@ -11,3 +11,8 @@ $colorDisableDate: #C8C8C8!default;
 $colorBoxShadowTitle: #DD1E22!default;
 $colorBackgroundCheckBox: #DBDBDB!default;
 $font: 'Poppins', sans-serif!default;
+
+@mixin starRating {
+    background-position: center;
+    background-size: cover;
+}
