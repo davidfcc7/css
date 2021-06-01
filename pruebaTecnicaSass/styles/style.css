@@ -75,7 +75,7 @@ header .menu__socialNetwork {
   margin: 134px 0 0 75px;
 }
 
-header .menu__socialNetwork h3, header .menu__socialNetwork .headerLocalidad div h3, header .headerLocalidad div .menu__socialNetwork h3, header .menu__socialNetwork .headerCalendar .headerCalendar__event div h3, header .headerCalendar .headerCalendar__event div .menu__socialNetwork h3 {
+header .menu__socialNetwork h3 {
   color: #e6e6e6;
   font-size: 22px;
   font-weight: 400;
@@ -118,7 +118,7 @@ header .headerTitulo {
   text-align: center;
 }
 
-header .headerTitulo h1, header .headerTitulo .headerLocalidad div h1, header .headerLocalidad div .headerTitulo h1, header .headerTitulo .headerCalendar .headerCalendar__event div h1, header .headerCalendar .headerCalendar__event div .headerTitulo h1 {
+header .headerTitulo h1 {
   font-size: 18px;
   color: white;
 }
@@ -142,6 +142,17 @@ header .headerLocalidad div {
   margin: 19px 55px 17px 16px;
 }
 
+header .headerLocalidad div h3 {
+  color: #6e6e6e;
+  font-weight: 300;
+}
+
+header .headerLocalidad div h1 {
+  font: 600;
+  color: #000000;
+  margin-top: 3px;
+}
+
 header .headerSwitch {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,7 +174,7 @@ header .switchButton {
   margin-left: 36px;
 }
 
-header .switchButton .switchButton__checkBox {
+header .switchButton__checkBox {
   display: none;
 }
 
@@ -206,20 +217,31 @@ header .headerCalendar {
       justify-content: space-around;
 }
 
-header .headerCalendar .headerCalendar__event {
+header .headerCalendar__event {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header .headerCalendar .headerCalendar__event input {
+header .headerCalendar__event input {
   width: 27px;
   height: 24px;
   margin: 31px 0px 29px 17px;
 }
 
-header .headerCalendar .headerCalendar__event div {
+header .headerCalendar__event div {
   margin: 19px 55px 17px 16px;
+}
+
+header .headerCalendar__event div h3 {
+  color: #6e6e6e;
+  font-weight: 300;
+}
+
+header .headerCalendar__event div h1 {
+  font: 600;
+  color: #000000;
+  margin-top: 3px;
 }
 
 header .headerBrowser {
@@ -250,7 +272,7 @@ header .headerBrowser {
   height: 109px;
 }
 
-.mainCard__title h1, .mainCard__title header .headerLocalidad div h1, header .headerLocalidad div .mainCard__title h1, .mainCard__title header .headerCalendar .headerCalendar__event div h1, header .headerCalendar .headerCalendar__event div .mainCard__title h1 {
+.mainCard__title h1 {
   margin-top: 40px;
   font-size: 22px;
   text-align: center;
@@ -260,7 +282,7 @@ header .headerBrowser {
   font-weight: 600;
 }
 
-.mainCard__title h1 span, .mainCard__title header .headerLocalidad div h1 span, header .headerLocalidad div .mainCard__title h1 span, .mainCard__title header .headerCalendar .headerCalendar__event div h1 span, header .headerCalendar .headerCalendar__event div .mainCard__title h1 span {
+.mainCard__title h1 span {
   color: #e6484b;
 }
 
@@ -293,7 +315,7 @@ header .headerBrowser {
   margin: auto;
 }
 
-.mainStar__logo h1, .mainStar__logo header .headerLocalidad div h1, header .headerLocalidad div .mainStar__logo h1, .mainStar__logo header .headerCalendar .headerCalendar__event div h1, header .headerCalendar .headerCalendar__event div .mainStar__logo h1 {
+.mainStar__logo h1 {
   margin: auto;
 }
 
@@ -310,12 +332,12 @@ header .headerBrowser {
   margin: auto;
 }
 
-.starRating {
+.mainStar .starRating {
   display: inline-block;
   margin: auto;
 }
 
-.starRating a {
+.mainStar .starRating a {
   text-decoration: none;
   width: 12px;
   height: 11px;
@@ -327,13 +349,13 @@ header .headerBrowser {
   padding: 1px;
 }
 
-.starRating:hover a {
+.mainStar .starRating:hover a {
   background-image: url("../assets/Grupo 5392.svg");
   background-position: center;
   background-size: cover;
 }
 
-.starRating > a:hover ~ a {
+.mainStar .starRating > a:hover ~ a {
   background-image: url("../assets/Grupo 5391.svg");
   background-position: center;
   background-size: cover;

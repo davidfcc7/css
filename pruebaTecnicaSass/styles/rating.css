@@ -13,7 +13,11 @@
   display: flex;
 }
 
-.mainStar__logo img, .mainStar__logo h1 {
+.mainStar__logo img {
+  margin: auto;
+}
+
+.mainStar__logo h1 {
   margin: auto;
 }
 
@@ -28,6 +32,35 @@
   font-weight: normal;
   padding-right: 10px;
   margin: auto;
+}
+
+.mainStar .starRating {
+  display: inline-block;
+  margin: auto;
+}
+
+.mainStar .starRating a {
+  text-decoration: none;
+  width: 12px;
+  height: 11px;
+  background-image: url("../assets/Grupo 5391.svg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  border: 1px solid #e6e6e6;
+  padding: 1px;
+}
+
+.mainStar .starRating:hover a {
+  background-image: url("../assets/Grupo 5392.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.mainStar .starRating > a:hover ~ a {
+  background-image: url("../assets/Grupo 5391.svg");
+  background-position: center;
+  background-size: cover;
 }
 
 .mainStar__paragraph {
@@ -45,32 +78,5 @@
 .mainStar__paragraph span {
   color: #000000;
   font-weight: 700;
-}
-
-.starRating {
-  display: inline-block;
-  margin: auto;
-}
-
-.starRating a {
-  text-decoration: none;
-  width: 12px;
-  height: 11px;
-  background-image: url("../assets/Grupo 5391.svg");
-  color: white;
-  border: 1px solid #e6e6e6;
-  padding: 1px;
-}
-
-.starRating .starRating:hover a {
-  background-image: url("../assets/Grupo 5392.svg");
-  background-position: center;
-  background-size: cover;
-}
-
-.starRating .starRating > a:hover ~ a {
-  background-image: url("../assets/Grupo 5391.svg");
-  background-position: center;
-  background-size: cover;
 }
 /*# sourceMappingURL=rating.css.map */
