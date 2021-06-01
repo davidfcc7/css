@@ -30,12 +30,6 @@ header section#headerMenu nav.botoneraMovil .menu__socialNetwork {
   margin: 134px 0 0 75px;
 }
 
-header section#headerMenu nav.botoneraMovil h3 {
-  color: #E6E6E6;
-  font-size: 22px;
-  font-weight: 400;
-}
-
 header section#headerMenu nav.botoneraMovil .menu__socialNetwork--icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,11 +39,17 @@ header section#headerMenu nav.botoneraMovil .menu__socialNetwork--icons {
   margin: 28px 174px 20vh 0;
 }
 
+header section#headerMenu nav.botoneraMovil h3 {
+  color: #E6E6E6;
+  font-size: 22px;
+  font-weight: 400;
+}
+
 header section#headerMenu ul {
   margin: 119px 0 0 75px;
 }
 
-header section#headerMenu ul ul li {
+header section#headerMenu ul li {
   width: 100%;
   line-height: 40px;
   text-align: left;
@@ -171,11 +171,11 @@ header section#headerMenu .headerSwitch .switchButton {
   margin-left: 36px;
 }
 
-header section#headerMenu .headerSwitch .switchButton .switchButton__checkBox {
+header section#headerMenu .headerSwitch .switchButton__checkBox {
   display: none;
 }
 
-header section#headerMenu .headerSwitch .switchButton .switchButton__label {
+header section#headerMenu .headerSwitch .switchButton__label {
   background-color: #FFFFFF;
   border-radius: 10px;
   width: 16px;
@@ -214,28 +214,28 @@ header section#headerMenu .headerCalendar {
       justify-content: space-around;
 }
 
-header section#headerMenu .headerCalendar .headerCalendar__event {
+header section#headerMenu .headerCalendar__event {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header section#headerMenu .headerCalendar .headerCalendar__event input {
+header section#headerMenu .headerCalendar__event input {
   width: 27px;
   height: 24px;
   margin: 31px 0px 29px 17px;
 }
 
-header section#headerMenu .headerCalendar .headerCalendar__event div {
+header section#headerMenu .headerCalendar__event div {
   margin: 19px 55px 17px 16px;
 }
 
-header section#headerMenu .headerCalendar .headerCalendar__event div h3 {
+header section#headerMenu .headerCalendar__event div h3 {
   color: #6E6E6E;
   font-weight: 300;
 }
 
-header section#headerMenu .headerCalendar .headerCalendar__event div h1 {
+header section#headerMenu .headerCalendar__event div h1 {
   font: normal normal 600 18px/28px Poppins;
   color: #000000;
   margin-top: 3px;

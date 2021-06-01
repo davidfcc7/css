@@ -18,21 +18,21 @@ header {
       transition: left 0.5s;
       .menu__socialNetwork {
         margin: 134px 0 0 75px;
+        &--icons {
+          display: flex;
+          justify-content: space-around;
+          margin: 28px 174px 20vh 0;
+        }
       }
       h3 {
         color: $colorBorderHeader;
         font-size: 22px;
         font-weight: 400;
       }
-      .menu__socialNetwork--icons {
-        display: flex;
-        justify-content: space-around;
-        margin: 28px 174px 20vh 0;
-      }
     }
     ul {
       margin: 119px 0 0 75px;
-      ul li {
+      li {
         width: 100%;
         line-height: 40px;
         text-align: left;
@@ -125,10 +125,10 @@ header {
         border: 2px solid $colorBackground;
         border-radius: 10px;
         margin-left: 36px;
-        .switchButton__checkBox {
+        &__checkBox {
           display: none;
         }
-        .switchButton__label {
+        &__label {
           background-color: $colorBackground;
           border-radius: 10px;
           width: 16px;
@@ -158,7 +158,7 @@ header {
       background-color: $colorBackground;
       border-radius: 6px;
       justify-content: space-around;
-      .headerCalendar__event {
+      &__event {
         display: flex;
         input {
           width: 27px;

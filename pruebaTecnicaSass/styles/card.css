@@ -6,19 +6,19 @@
   margin: 40px 53px 0 55px;
 }
 
-.mainCard .mainCard__title {
+.mainCard__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.mainCard .mainCard__title img {
+.mainCard__title img {
   margin: 9px 0px 15px 7px;
   width: 201px;
   height: 109px;
 }
 
-.mainCard .mainCard__title h1 {
+.mainCard__title h1 {
   margin-top: 40px;
   font-size: 22px;
   text-align: center;
@@ -28,17 +28,17 @@
   font-weight: 600;
 }
 
-.mainCard .mainCard__title h1 span {
+.mainCard__title h1 span {
   color: #E6484B;
 }
 
-.mainCard .mainCard__paragraph {
+.mainCard__paragraph {
   font-size: 14px;
   text-align: center;
   margin: auto 44px;
 }
 
-.mainCard .mainCard__paragraph p {
+.mainCard__paragraph p {
   font-weight: 600;
 }
 /*# sourceMappingURL=card.css.map */

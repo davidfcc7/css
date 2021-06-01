@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     margin: 19px 69px 2px 69px;
-    .mainStar__logo{
+    &__logo{
         display: flex;
         img{
             margin: auto;
@@ -12,7 +12,7 @@
             margin: auto;
         }
     }
-    .mainStar__qualification{
+    &__qualification{
         display: flex;
         label{
             font-size: 22px;
@@ -21,7 +21,7 @@
             margin: auto;
         }
     }
-    .mainStar__paragraph{
+    &__paragraph{
         text-align: center;
         font-size: 12px;
         letter-spacing: 0.36px;

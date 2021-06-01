@@ -7,46 +7,46 @@
   margin: 19px 69px 2px 69px;
 }
 
-.mainStar .mainStar__logo {
+.mainStar__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.mainStar .mainStar__logo img {
+.mainStar__logo img {
   margin: auto;
 }
 
-.mainStar .mainStar__logo h1 {
+.mainStar__logo h1 {
   margin: auto;
 }
 
-.mainStar .mainStar__qualification {
+.mainStar__qualification {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.mainStar .mainStar__qualification label {
+.mainStar__qualification label {
   font-size: 22px;
   font-weight: normal;
   padding-right: 10px;
   margin: auto;
 }
 
-.mainStar .mainStar__paragraph {
+.mainStar__paragraph {
   text-align: center;
   font-size: 12px;
   letter-spacing: 0.36px;
   margin-top: 2px;
 }
 
-.mainStar .mainStar__paragraph p {
+.mainStar__paragraph p {
   color: #464646;
   font-weight: 600;
 }
 
-.mainStar .mainStar__paragraph span {
+.mainStar__paragraph span {
   color: #000000;
   font-weight: 700;
 }
