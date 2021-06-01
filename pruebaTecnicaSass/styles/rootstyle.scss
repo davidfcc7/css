@@ -16,11 +16,11 @@ $font: "Poppins", sans-serif !default;
   background-position: center;
   background-size: cover;
 }
-@mixin h3 {
+@mixin h3-text {
   color: $colorTitleDate;
   font-weight: 300;
 }
-@mixin h1 {
+@mixin h1-title {
   font: 600;
   color: $colorDesaultText;
   margin-top: 3px;

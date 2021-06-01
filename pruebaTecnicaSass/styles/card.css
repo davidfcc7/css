@@ -1,6 +1,6 @@
 .mainCard {
   border-radius: 10px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
   margin-top: 42px;
   display: block;
   margin: 40px 53px 0 55px;
@@ -29,7 +29,7 @@
 }
 
 .mainCard__title h1 span {
-  color: #E6484B;
+  color: #e6484b;
 }
 
 .mainCard__paragraph {
