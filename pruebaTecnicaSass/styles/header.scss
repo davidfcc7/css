@@ -101,13 +101,10 @@ header {
       div {
         margin: 19px 55px 17px 16px;
         h3 {
-          color: $colorTitleDate;
-          font-weight: 300;
+          @include h3;
         }
         h1 {
-          font: normal normal 600 18px/28px Poppins;
-          color: $colorDesaultText;
-          margin-top: 3px;
+          @include h1;
         }
       }
     }
@@ -168,13 +165,10 @@ header {
         div {
           margin: 19px 55px 17px 16px;
           h3 {
-            color: $colorTitleDate;
-            font-weight: 300;
+            @include h3;
           }
           h1 {
-            font: normal normal 600 18px/28px Poppins;
-            color: $colorDesaultText;
-            margin-top: 3px;
+            @include h1;
           }
         }
       }

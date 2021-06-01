@@ -6,7 +6,7 @@ header {
 }
 
 header section#headerMenu {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +40,7 @@ header section#headerMenu nav.botoneraMovil .menu__socialNetwork--icons {
 }
 
 header section#headerMenu nav.botoneraMovil h3 {
-  color: #E6E6E6;
+  color: #e6e6e6;
   font-size: 22px;
   font-weight: 400;
 }
@@ -125,7 +125,7 @@ header section#headerMenu .headerLocalidad {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 6px;
 }
 
@@ -140,12 +140,12 @@ header section#headerMenu .headerLocalidad div {
 }
 
 header section#headerMenu .headerLocalidad div h3 {
-  color: #6E6E6E;
+  color: #6e6e6e;
   font-weight: 300;
 }
 
 header section#headerMenu .headerLocalidad div h1 {
-  font: normal normal 600 18px/28px Poppins;
+  font: 600;
   color: #000000;
   margin-top: 3px;
 }
@@ -158,7 +158,7 @@ header section#headerMenu .headerSwitch {
 
 header section#headerMenu .headerSwitch div p {
   padding-left: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: auto;
 }
 
@@ -166,7 +166,7 @@ header section#headerMenu .headerSwitch .switchButton {
   display: inline-block;
   width: 36px;
   height: 21px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   border-radius: 10px;
   margin-left: 36px;
 }
@@ -176,11 +176,11 @@ header section#headerMenu .headerSwitch .switchButton__checkBox {
 }
 
 header section#headerMenu .headerSwitch .switchButton__label {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   width: 16px;
   height: 18px;
-  border: 0px solid #E6484B;
+  border: 0px solid #e6484b;
   display: inline-block;
   position: inherit;
 }
@@ -195,7 +195,7 @@ header section#headerMenu .headerSwitch .switchButton .switchButton__label:befor
 }
 
 header section#headerMenu .headerSwitch .switchButton .switchButton__checkBox:checked + .switchButton {
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
 }
 
 header section#headerMenu .headerSwitch .switchButton .switchButton__checkBox:checked + .switchButton__label:before {
@@ -208,7 +208,7 @@ header section#headerMenu .headerCalendar {
   display: -ms-flexbox;
   display: flex;
   margin: 14px 30px 16px 31px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 6px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -231,12 +231,12 @@ header section#headerMenu .headerCalendar__event div {
 }
 
 header section#headerMenu .headerCalendar__event div h3 {
-  color: #6E6E6E;
+  color: #6e6e6e;
   font-weight: 300;
 }
 
 header section#headerMenu .headerCalendar__event div h1 {
-  font: normal normal 600 18px/28px Poppins;
+  font: 600;
   color: #000000;
   margin-top: 3px;
 }
