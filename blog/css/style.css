@@ -148,3 +148,33 @@ footer p{
     color: white;
     text-align: center;
 }
+.blogpostImgContainer{
+    padding: 0 50px 40px;
+}
+.blogpostImgContainer img{
+    width: 100%;
+}
+.blogpostMainContainer{
+    padding: 0 50px 40px;
+}
+.blogpostMainContainer h3{
+    border-bottom: 1px solid #f20418;
+    padding-bottom: 15px;
+}
+.blogpostMainContainer article h1{
+    font-size: 25px;
+}
+.contactMainContainer{
+    background-color: #f4da0a;
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 180px 10px;
+}
+.contactMainContainer .card{
+    display: flex;
+}
+.contactMainContainer img{
+    width: 80px;
+    margin-right: 20px;
+}
