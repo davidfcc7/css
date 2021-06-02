@@ -97,11 +97,19 @@ nav{
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
 }
-.blogsMain__newsContainer__new--img{
+.blogsMain__newsContainer__new--perfil{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr;
+}
+.blogsMain__newsContainer__new--img, .blogsMain__newsContainer__new--img--perfil{
     grid-column: 1;
 }
 .blogsMain__newsContainer__new--img img{
     width: 85%;
+}
+.blogsMain__newsContainer__new--img--perfil img{
+    width: 65%;
 }
 .blogsMain__newsContainer__blogsNewsInfoContainer{
     grid-column: 2;
@@ -140,7 +148,7 @@ nav{
 }
 footer{
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: black;
     border-top: 35px solid #f4da0a;
 }
@@ -164,17 +172,22 @@ footer p{
 .blogpostMainContainer article h1{
     font-size: 25px;
 }
-.contactMainContainer{
+.contactGeneral{
+    width: 100%;
     background-color: #f4da0a;
-    background-size: 100%;
+}
+.contactMainContainer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 180px 10px;
 }
 .contactMainContainer .card{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-right: 4px;
+    padding-top: 15px;
 }
 .contactMainContainer img{
-    width: 80px;
+    width: 100px;
     margin-right: 20px;
+    padding: 15px;
 }
