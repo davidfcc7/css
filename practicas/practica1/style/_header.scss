@@ -1,0 +1,88 @@
+header {
+	background-image: url("../assets/background-header.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+    .topNav {
+    	padding-top: 16px;
+    	ul {
+     		display: flex;
+      		justify-content: flex-end;
+      		li {
+				margin-right: 39px;
+				list-style: none;
+				position: relative;
+        		a {
+                    text-decoration: none;
+                    color: white;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 21px;
+        		}
+      		}
+    	}		
+  	}
+    .nav{
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            li{
+                list-style: none;
+                margin: 25px 53px 127px 0px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    position: relative;
+                }
+            }
+        }
+    }
+    .header__container{
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        &--text{
+            p, h1{
+                color: white;
+                position: relative;
+            }
+            p{
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                margin-bottom: 2px;
+            }
+            h1{
+                font-size: 48px;
+                line-height: 52px;
+                font-weight: 400;
+                margin-bottom: 54px;
+            }
+        }
+        &--button{
+            button{
+                padding: 11px 45px;
+                margin-bottom: 209px;
+                background-color: white;
+                position: relative;
+                border-radius: 5px;
+                border: 1px solid white
+            }
+            button:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}

@@ -5,3 +5,4 @@ funciones y ejemplos de css
 
 npm install -g sass
 sass direccionCarpeta/style.scss direccionCarpeta/style.css
+sass --watch origen.scss destino.css
